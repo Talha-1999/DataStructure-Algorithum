@@ -20,9 +20,9 @@
     //  along with other element which are stored inside the stack.
 
 // Operations of Stckt ADT are:
-    //  push() ->  push on element into the stack.
-    //  pop()  ->  remove the topmost element from the stack.
-    //  peek() ->  value at a given position returned.
+    //  push() ->  push on element into the stack. O(1)
+    //  pop()  ->  remove the topmost element from the stack. O(1)
+    //  peek() ->  value at a given position returned. O(1)
     //  isEmpty() / isFull()  ->  Determine whether the stack is empty or full.
 
 

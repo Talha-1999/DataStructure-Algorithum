@@ -76,6 +76,7 @@ int main(){
     // stackTraversal(stack);
 
     string data="[1+3+{5+9}]";
+    // string data="((8)[*--&&9])";
     // string data="([7-9}-7)";
 
     for(int index=0;index<data.length();index++){

@@ -1,0 +1,28 @@
+Time Complexity:
+    kitni jaldi hamara algorithum ek bhary input k liye run ho ga.
+    agr kam time ly raha ha to wo axha ha.
+
++----------------------+-------------------+
+|   Algorithm/Operation |  Time Complexity |
++----------------------+-------------------+
+| Constant Time        |        O(1)       |  Accessing an element in an array.
+| Logarithmic Time     |        O(log n)   |  Binary search.
+| Linear Time          |        O(n)       |  Finding the maximum element in an array.
+| Linearithmic Time    |        O(n log n) |  Merge Sort, Heap Sort.
+| Quadratic Time       |        O(n^2)     |  Bubble Sort, Selection Sort.
+| Cubic Time           |        O(n^3)     |  Matrix multiplication.
+| Exponential Time     |        O(2^n)     |  Brute-force solution for subsets.
++----------------------+-------------------+
+
+Space Complexity :
+    kya hamara algorithum ek bhary input k liye boht zada space ly raha hai.
+    agar ly raha ha to its not good.mtlb uski space usage wo input k sath grow kr rahi ha.  
+
+Internal Sorting Algorithum :
+    All the data is loaded into the memory.
+
+External Sorting Algorithum :
+    All the data is not loaded into the memory.
+
+Adaptive Sorting Algorithum :
+    Already sorted data takes less times.
