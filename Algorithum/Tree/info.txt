@@ -1,0 +1,161 @@
+Tree:      1
+          / \ 
+         2   3
+        / \   \
+       4   5   6
+      /     \   \
+     8       9   10
+
+Array,Linked List,Stack,Queue is a linear Data Structure.
+Tree is a Non-Linear Data Structure.
+
+Traversal in a Linear Data Structure :
+=>  Front to rear or rear to Front.
+          <--------
+    ---------------------
+    +  2 |  3  | 6  | 4  +     => Array
+    ---------------------
+          -------->
+
+Traversal in a Binary Tree :
+
+1 : PreOrder Traversal.
+    Root ---->  Left subtree ----> Right subtree
+2 : PostOrder Traversal.
+    Left subtree ---->  Right subtree ----> Root
+3 : InOrder Traversal.
+    Left subtree ---->  Root ----> Right subtree
+
+
+Basic Terminlogy : ✅
+
+1 : Root =>      Top most Node.
+2 : Parent =>    Which connect to the Child.
+3 : Child  =>    Node which is connected by another node is its child.
+4 : Siblings =>  Nodes belonging to the same parent.
+5 : Leaf/External Node =>  Nodes with no children.
+6 : Internal Node =>  Nodes with atleast one child.
+7 : Depth =>  Numbers of edges from root to the node.
+8 : Height => Number of edges from node to the deapest leaf. 
+9 : Ancesters =>    Parents or Parent of Parents.   maa bap or maa bap kay maa bap.
+10 : Descendents => Child or Child of Childs.   bachy or bachon kay bachy.
+
+
+Binary Tree : ✅
+
+          yes       yes        No
+           1         1          1
+          / \       /         / | \
+         2   3     2         2  3  4  
+         
+Binary Tree is a tree which has at most 2 children for all the nodes.
+
+       degree=2       1       degree=1           1          
+                     / \                        /   
+       degree=1  <- 2   3     degree=0    <-   2     
+                   /
+                  4  
+
+           1      -> root 
+          / \     -> edges
+         2   3    -> node
+            / \
+           4   5  -> leaf node 
+
+1 : Tree is made up of nodes & edges.
+2 : n nodes => n-1 edges.
+3 : Degree => no of direct children (for a node).
+4 : Degree of a tree is the highest degree of a node among all the nodes present in the tree. 
+5 : Binary Tree can have 0,1 or 2 children.
+
+
+Types of Binary Trees : ✅
+
+1 : Full or Strict Binary Tree:
+
+=>   All nodes have either 0 or 2 children.  
+    Examples :    
+       1   -> 2 children                    1  -> 2 child
+      / \                                  / \
+     2   3 -> 0 children  ,  2 child   <- 2   3 -> 0 child
+                                         / \  
+                                        4   6  
+
+               1  -> 2 child
+              / \
+2 child   <- 2   3 -> 1 child   So,it is not a Full or strict tree.
+            / \   \
+           4   6   5                     
+
+
+2 : Perfect Binary Tree :
+
+=>    Internal nodes have 2 children and all leaf nodes are on same level.
+    Examples:
+       1            1 
+      / \          / \
+     2   3        2   3   
+                 / \  / \
+                4   6 7  8
+
+               1 
+              / \
+             2   3    => So,it is not a Perfect Binary Tree.
+            / \   
+           4   6                        
+
+
+3 : Complete Binary Tree :
+
+=>  All levels are completly filled except possibly the last level + last level must have
+    its keys as left as possible.
+    Examples:
+       1            1                 1     
+      / \          / \              /   \
+     2   3        2   3            2     3
+                 / \  / \         / \    / 
+                4   6 7  8       4   6  7     => agr complete fill nahi ha to hum us side ko dekhyn gy jo complete nahi ha to humy pata chaly ga jo fill nahi ha wo last level ha yes or sary keys/nodes us k left side pa hain so it is complete binary tree.         
+
+               1 
+              / \
+             2   3      =>   So,it is not a Complete Binary Tree.
+            /   / \
+           4   6   5  
+
+               1 
+              / \
+             2   3      =>   So,it is not a Complete Binary Tree.
+            / \   \
+           4   6   5  
+
+
+4 : Degenerate Tree :
+
+=> Every Parent node has exactly one child.
+   Examples:
+       1            1      1 
+      /            /        \
+     2            2          2
+                   \          \
+                    4          3
+
+               1 
+              / 
+             2      => So,it is not a Degenerate Tree.
+            / \   
+           4   6   
+
+=> Degenerate Tree has 2 types of tree.
+    1 : Left Skewed Tree.
+               1 
+              / 
+             2     
+            /   
+           4   
+   2 : Right Skewed Tree.
+            1
+             \
+              2
+               \
+                4
+   
