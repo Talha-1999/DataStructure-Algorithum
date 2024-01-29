@@ -1,0 +1,16 @@
+(BST) Binary Search Tree :
+                             9        => Yes it is a Binary Search Tree.Bcz All properties are true.
+                           /   \
+                          4     11
+                        /  \     \
+                       2    7     15
+                           / \    /
+                          5   8  14
+
+Properties :
+
+1 : All nodes of the left subtree are lesser.
+2 : All nodes of the right subtree are greater.
+3 : Left & Right subtree are also BST.
+4 : There are no duplicate nodes.
+5 : InOrder Traversal of a BST gives an ascending sorted array.
