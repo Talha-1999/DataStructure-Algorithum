@@ -5,7 +5,7 @@ using namespace std;
 // Time Complexity is O(logn)
 int* BinarySearch(int arr[],int size,int element){
 
-    int* response = new int[2]; // create array in pointer for return 
+    int* response = new int[3]; // create array in pointer for return 
     int low=0;
     int mid;
     int high=size-1;
@@ -31,7 +31,7 @@ int main()
 
     int myArray[]={1,2,3,4,5,6,7,8,9};
     int arraySize = sizeof(myArray) / sizeof(int);
-    int element=4;
+    int element=5;
     int* findElement=BinarySearch(myArray,arraySize,element);
 
     cout<<"Binary Search Find Data : "<<findElement[0]<<" And Index is : "<<findElement[1]<<endl;
