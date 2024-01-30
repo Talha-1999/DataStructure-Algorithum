@@ -1,0 +1,28 @@
+Graphs
+              1
+             /   \
+          1 /     \   4  
+           /       \-------3
+           0       | 3     /
+            \      2      /  6
+          2  \  7 / \ 5  /
+              \  /   \  /
+               4       5
+
+
+V={0,1,2,3,4,5}
+E={{0,1},{1,3},{1,2},{0,4},{2,4},{2,5},{3,5}}
+1: A Graphs G=(V,E) is a collection of vertices/Nodes and edges connectiong these points.
+2: Used to model paths in a city ,social networks,website backlinks,internal employee
+   network etc.
+3: A vertex or node is one fundamental unit/entity of which graph are formed.
+4: An edge is uniquely defined by its 2 endpoints.
+5: Directed Edge - One way Connection.
+6: Undirected Edge - Two way Connection.
+7: Directed Graph - All directed edges.
+8: Undirected Graphs - All Undirected Edges.
+
+Indegree & Outdegree of a Node:
+
+1 : Indegree = No of edges going out of the node.
+2 : Outdegree = No of edges coming into the node.
